@@ -1,0 +1,455 @@
+/*
+? header start
+*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav button {
+    margin: 10px;
+    font-size: 1.2em;
+    border: 25px 25px;
+    border: 2px solid #5E3BEE;
+    padding: 10px;
+    color: #5E3BEE;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 44px;
+}
+
+nav ul .active {
+    color: #5E3BEE;
+    font-size: 1.2em;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 1.2em;
+
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode nav a img {
+    filter: invert(1);
+}
+
+body.dark-mode nav ul li a {
+    color: #fff;
+}
+
+body.dark-mode nav ul .active {
+    color: #5E3BEE;
+    font-size: 1.2em;
+}
+
+.person {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*
+? header end
+*/
+
+/*
+! section 1 start
+*/
+.person .text {
+    position: relative;
+    left: 25px;
+    top: 85px;
+}
+
+.person .text h1 {
+    font-size: 35px;
+    margin: 10px;
+}
+
+.person .text p {
+    font-size: 24px;
+    margin: 15px;
+}
+
+.person .text h1 span {
+    color: #5E3BEE;
+}
+
+.person button {
+    margin: 10px;
+    font-size: 1.2em;
+    border: 25px 25px;
+    border: 4px solid #5E3BEE;
+    background-color: #5E3BEE;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+/*
+! section 1 end
+*/
+
+/*
+^ section 2 start
+*/
+.mySkills h2 {
+    margin: 15px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.mySkills h4 {
+    margin: 15px;
+    font-weight: 700;
+}
+
+
+
+.cards {
+    display: flex;
+}
+
+.card {
+    background-color: #F5FCFF;
+    color: black;
+}
+
+.card img {
+    width: 100px;
+    margin: 10px;
+}
+
+.card .card-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card .card-text {
+    font-size: 18px;
+}
+
+/*
+^ section 2 end
+*/
+
+/*
+& section 3 start
+*/
+.about {
+    display: flex;
+
+    align-items: center;
+}
+
+.about-image img {
+    width: 500px;
+    height: 500px;
+}
+
+.about-text h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.about-text p {
+    font-size: 18px;
+    margin: 15px;
+
+}
+
+/*
+& section 3 end
+*/
+
+/*
+* section 4 start
+*/
+.myPortfolio {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.myPortfolio h2 {
+    margin: 15px;
+    font-weight: 700;
+    font-size: 30px;
+    position: absolute;
+    left: 15px;
+    margin: 10px;
+    top: 20px;
+}
+
+.myPortfolio h4 {
+    margin: 15px;
+    font-weight: 700;
+}
+
+.portfolios {
+    display: flex;
+    position: relative;
+    top: 20px;
+    right: 25%;
+}
+
+.portfolios .portfolio {
+    color: black;
+
+}
+
+.portfolio img {
+    width: 350px;
+    height: 250px;
+    padding: 30px;
+}
+
+.portfolio .card-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.portfolio .card-text {
+    padding: 10px;
+}
+
+.portfolioButton {
+    position: absolute;
+    right: 20px;
+    background: #E62872;
+    border: 3px solid #E62872;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.portfolioButton i {
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+    background-color: #E62872;
+}
+
+
+.ViewInDribbble {
+    border: none;
+}
+
+hr {
+    width: 50%;
+}
+
+.ViewInDribbble i {
+    color: #006B6A;
+}
+
+/*
+* section 4 end
+*/
+
+/*
+~ section 5 start
+*/
+
+
+.customerTestimonials h4,
+h2 {
+    font-weight: 700;
+
+}
+
+.customerTestimonials h2 {
+    font-size: 25px;
+
+}
+
+.clientsFeedback {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.clientsFeedback .clients {
+    width: 500px;
+    height: 350px;
+    border: 3px solid #006B6A;
+}
+
+.clients img {
+    margin: 15px;
+}
+
+.clients p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.clients .clents-1 {
+    display: flex;
+    justify-content: left;
+}
+
+.clents-1 .clents-text h2,
+p {
+    margin: 25px;
+}
+
+/*
+~ section 5 end
+*/
+
+/*
+! section 6 start 
+*/
+.contactMe{
+    margin: 10px;
+}
+
+.contactMe h2{
+   font-size: 25px;
+   font-weight: 700;
+   margin: 10px;
+   
+}
+
+.contactMe h4{
+    font-weight: 700;
+}
+
+.contactMe p{
+    font-size: 24px;
+}
+
+form{
+    display: flex;
+}
+
+form .form-1{
+    margin: 10px;
+}
+.form-1 label, .form-2 label{
+    margin: 10px;
+    font-size: 20px;
+}
+.form-1  input{
+    outline: none;
+    padding: 10px;
+    border: 2px solid #5E3BEE;
+}
+
+.form-1{
+    position: relative;
+}
+
+.form-1 select{
+    margin: 10px;
+}
+
+.form-2{
+   margin: 10px;
+}
+
+.form-1 i{
+    position: absolute;
+    top:45%;
+    right: 60%;
+    color: #5E3BEE;
+}
+
+.form-2 input{
+    outline: none;
+    padding: 10px;
+    border: 2px solid #5E3BEE;
+   
+}
+
+.message{
+    border: 3px solid #5E3BEE;
+    width: 500px;
+    height: 100px;
+    outline: none;
+    margin: 10px;
+}
+/*
+! section 6 end
+*/
+
+/*
+^ footer start
+*/
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section nav button{
+    margin: 10px;
+    font-size: 1.2em;
+    border: 25px 25px;
+    border: 2px solid #5E3BEE;
+    padding: 10px;
+    color: #5E3BEE;
+    cursor: pointer;
+}
+
+.submit{
+    margin: 10px;
+    font-size: 1.2em;
+    border: 25px 25px;
+    border: 4px solid #5E3BEE;
+    background-color: #5E3BEE;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media i{
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.footer-section-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section-2 a{
+    padding:10px;
+    color: black;
+}
+
+.line{
+    width: 100%;
+}
+/*
+^ footer end
+*/
